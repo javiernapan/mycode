@@ -1,0 +1,386 @@
+db.pop.insertMany([
+    {
+        "_id":"R001",
+        "region":"Lima",
+        "clima":"templado",
+        "provincias":[
+            {
+                "nombre":"Yauyos",
+                "tipo":"Rural",
+                "distritos":[
+                    {
+                        "nombre":"Colonia",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":2300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":4300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Tauripampa",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":4300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":8300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":1300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Omas",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":7300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":5300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":2300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Laraos",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":4300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":2200
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":1300
+                            }                     
+                        ]
+                    }
+                ]
+            },
+            {
+                "nombre":"Lima",
+                "tipo":"Urbana",
+                "distritos":[
+                    {
+                        "nombre":"Comas",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":6300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":9300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":4300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"San Borja",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":14300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":18300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":7300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"La Molina",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":7300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":5300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":2300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Independencia",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":6300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":9200
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":7300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Surco",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":5300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":12200
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":10300
+                            }                     
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id":"R002",
+        "region":"Arequipa",
+        "clima":"Frio",
+        "provincias":[
+            {
+                "nombre":"Camaná",
+                "tipo":"Rural",
+                "distritos":[
+                    {
+                        "nombre":"Ocoña",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":1300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":3300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":700
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Quilca",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":3300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":7300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":2300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Mariscal Cáceres",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":5300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":3300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":3300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"San Jerónimo",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":6300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":4200
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":2300
+                            }                     
+                        ]
+                    }
+                ]
+            },
+            {
+                "nombre":"Caravelí",
+                "tipo":"Rural",
+                "distritos":[
+                    {
+                        "nombre":"Acari",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":6300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":9300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":4300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Atico",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":4300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":8300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":7300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Bella Unión",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":5300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":3500
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":2300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Quilcaña",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":2300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":7200
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":7300
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Lomas",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":5300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":12200
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":10300
+                            }                     
+                        ]
+                    }
+                ]
+            },
+            {
+                "nombre":"Castilla",
+                "tipo":"Rural",
+                "distritos":[
+                    {
+                        "nombre":"Andahua",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":1300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":3300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":700
+                            }                     
+                        ]
+                    },
+                    {
+                        "nombre":"Orcopampa",
+                        "consumos":[
+                            {
+                                "nombreBebida":"CocaCola",
+                                "cantidadPersonas":5300
+                            },
+                            {
+                                "nombreBebida":"Inca Kola",
+                                "cantidadPersonas":8300
+                            },
+                            {
+                                "nombreBebida":"Agua Cielo",
+                                "cantidadPersonas":5300
+                            }                     
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+])
